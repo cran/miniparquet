@@ -1,0 +1,7 @@
+export(parquet_read)
+export(read_parquet)
+
+
+import(methods)
+
+useDynLib(miniparquet, .registration = TRUE)
